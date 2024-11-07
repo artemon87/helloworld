@@ -1,11 +1,9 @@
 from flask import Flask, jsonify
-import os
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    print(os.getcwd())
     return jsonify({"message": "Hello, World Back to Old!"})
 
 if __name__ == '__main__':
