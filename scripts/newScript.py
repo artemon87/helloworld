@@ -1,2 +1,2 @@
-def new_function():
+def new_function2():
     print("New function added.")
